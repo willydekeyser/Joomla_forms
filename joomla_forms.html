@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Joomla Forms</title>
+</head>
+<body>
+    
+
+    <form action="">
+        Aantal boeken:<br>
+        <input id="number_of_books" onchange="bereken_total()" type="number" name="number_of_books" value="0">
+        <br>
+        Totaal:<br>
+        <input id="total" type="number" name="total" onfocus="this.blur()" readonly="readonly" value="0">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form> 
+
+
+      <script src="joomla_forms.js"></script>
+
+</body>
+</html>
